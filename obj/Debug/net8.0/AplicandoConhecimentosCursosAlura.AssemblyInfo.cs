@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AplicandoConhecimentosCursosAlura")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4786a8a17fd485bcc0cbc1d845c198741ac819e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80c894c713794dfb351f687e2f723a7f396e0f6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AplicandoConhecimentosCursosAlura")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AplicandoConhecimentosCursosAlura")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

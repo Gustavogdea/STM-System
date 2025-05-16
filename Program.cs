@@ -8,5 +8,16 @@
 
 using AplicandoConhecimentosCursosAlura.Menu;
 using AplicandoConhecimentosCursosAlura.Model;
-
-Menu.ExibirMenu();
+var dicionrioOpcoes = new Dictionary<int, Opcoes>()
+{
+	{ 1, new Opcoes { Descricao = "Cadastrar Produto", Acao = () => {
+				//não use menus estaticos nesse formato
+				//MenuCadastro.CadastrarPerfil();
+				//return MenuCadastro;
+				return null;
+			} 
+		} 
+	},
+};
+Menu men = new Menu(dicionrioOpcoes,"Menu Principal");
+men.ShowMenu();
