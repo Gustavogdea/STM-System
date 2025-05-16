@@ -2,7 +2,7 @@
 
 class MenuVendas : Menu
 {
-    public static void FuncoesPedidoDeCompra()
+    public static void FuncoesPedidoDeVenda()
     {
 
     }

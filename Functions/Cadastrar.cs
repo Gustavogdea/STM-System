@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace AplicandoConhecimentosCursosAlura.Functions;
+using AplicandoConhecimentosCursosAlura.Menu;
 
-namespace AplicandoConhecimentosCursosAlura.Functions
+class Cadastrar : Menu
 {
-    class Cadastrar
+    public static void OperacaoCadastroCliente()
     {
+        Console.Write("Digite o Nome do Cliente: ");
+        string nome = Console.ReadLine()!;
+    }
+
+    public static void OperacaoCadastroFornecedor()
+    {
+        throw new NotImplementedException();
     }
 }

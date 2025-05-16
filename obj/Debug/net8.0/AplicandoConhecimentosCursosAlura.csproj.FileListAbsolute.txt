@@ -12,3 +12,4 @@ D:\01 - Projetos\AluraOOP\AplicandoConhecimentosCursosAlura\obj\Debug\net8.0\ref
 D:\01 - Projetos\AluraOOP\AplicandoConhecimentosCursosAlura\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.pdb
 D:\01 - Projetos\AluraOOP\AplicandoConhecimentosCursosAlura\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.genruntimeconfig.cache
 D:\01 - Projetos\AluraOOP\AplicandoConhecimentosCursosAlura\obj\Debug\net8.0\ref\AplicandoConhecimentosCursosAlura.dll
+D:\01 - Projetos\AluraOOP\AplicandoConhecimentosCursosAlura\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.sourcelink.json

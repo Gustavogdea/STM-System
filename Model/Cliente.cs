@@ -20,7 +20,7 @@ class Cliente : Cadastro
     public string? Estado { get; set; }
     public string? Pais { get; set; }
 
-    public override void Cadastrar()
+    public override void AdicionarCadastro()
     {
         _listaClientes.Add(this);
         Console.WriteLine("Cadastro de Cliente Realizado com sucesso!...");

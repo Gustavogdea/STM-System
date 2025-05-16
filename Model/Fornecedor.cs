@@ -20,7 +20,7 @@ class Fornecedor : Cadastro
     public string? Estado { get; set; }
     public string? Pais { get; set; }
 
-    public override void Cadastrar()
+    public override void AdicionarCadastro()
     {
         _listaFornecedores.Add(this);
         Console.WriteLine("Cadastro de Fornecedor Realizado com sucesso!...");
