@@ -12,7 +12,3 @@ Funções (Ainda não desenvolvidas):
 - Movimentação de estoque e faturamento de cliente;
 
 Arquivos Serializados JSON e XML
-
-
-- Revisar MENU e criar um dictionary para montar o menu
-Revisar 18/05
