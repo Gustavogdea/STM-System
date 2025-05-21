@@ -12,3 +12,6 @@ Funções (Ainda não desenvolvidas):
 - Movimentação de estoque e faturamento de cliente;
 
 Arquivos Serializados JSON e XML
+
+
+- Necessário revisar menus C#, chamadas através de um dicionário com um int e uma função.
