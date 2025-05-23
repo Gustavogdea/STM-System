@@ -1,4 +1,6 @@
 ﻿using AplicandoConhecimentosCursosAlura;
+using AplicandoConhecimentosCursosAlura.Functions;
+using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
 namespace AplicandoConhecimentosCursosAlura.Menu;
@@ -7,12 +9,29 @@ internal class MenuCadastro : Menu
 {
     public MenuCadastro(Dictionary<int, Opcoes> Opcoes, string Titulo) : base(Opcoes, Titulo)
     {
+        _opcoes = Opcoes;
+        _titulo = Titulo;
     }
+
+    private readonly string _titulo;
+    private readonly Dictionary<int, Opcoes> _opcoes;
 
     public static void Cadastrar() 
     {
-        Console.Clear();
-        Console.WriteLine("Você chegou!");
+
+            Console.Write("Digite [0] para cadastrar Fornecedor e [1] para cadastrar Cliente: ");
+            int opcao = int.Parse(Console.ReadLine()!);
+            Console.Write("Digite o nome: ");
+            string nome = Console.ReadLine()!;
+            Console.Write("Digite a cidade: ");
+            string cidade = Console.ReadLine()!;
+            Console.Write("Digite o estado: ");
+            string estado = Console.ReadLine()!;
+            Console.Write("Digite o país: ");
+            string pais = Console.ReadLine()!;
+
+            ProcCadastro.AdicionarCadastro(nome, cidade, estado, pais, opcao);
+        }
     }
 
     public static void EditarCadastro()

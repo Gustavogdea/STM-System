@@ -2,8 +2,8 @@
 
 abstract class Cadastro
 {
-    public abstract void AdicionarCadastro();
+    public abstract void AdicionarCadastro(string nome, string cidade, string estado, string pais, int opcao);
 
-    protected List<Fornecedor> _listaFornecedores { get; set; } = new List<Fornecedor>();
-    protected List<Cliente> _listaClientes { get; set; } = new List<Cliente>();
+    public List<Fornecedor> _listaFornecedores = new List<Fornecedor>();
+    public List<Cliente> _listaClientes = new List<Cliente>();
 }
