@@ -25,14 +25,18 @@ class Menu
 		_titulo = Titulo;
 	}
 
+    protected Menu(Dictionary<string, Opcoes> dicionarioOpcoes, string v)
+    {
+	    throw new NotImplementedException();
+    }
 
-	public void MontarCabecalho()
+    public void MontarCabecalho()
     {
 		Console.Clear();
 		Console.WriteLine($"===   {_titulo}   ===");
         Console.WriteLine(tituloPrograma);
     }
-    public void MontarRodape()
+    public static void MontarRodape()
     {
         Console.WriteLine(barraSimples);
         Console.WriteLine(barraPrograma);
