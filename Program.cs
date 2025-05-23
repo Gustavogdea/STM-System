@@ -51,8 +51,21 @@ var dicionarioOpcoes = new Dictionary<int, Opcoes>()
     },
 };
 
+var dicionarioOpcoesCadastro = new Dictionary<int, Opcoes>()
+{
+    {1, new Opcoes {Descricao = "Cadastrar Fornecedor", Acao = () =>
+            {
+                MenuCadastro.Cadastrar();
+                return null;
+            }    
+        }
+    }
+};
+
 Menu men = new Menu(dicionarioOpcoes, "Menu Principal");
 men.ShowMenu();
+
+MenuCadastro menCad = new MenuCadastro(dicionarioOpcoesCadastro, "Cadastros Fornecedor/Cliente");
 
 Console.Write("Escolha: ");
 int opcaoValue = int.Parse(Console.ReadLine()!);
