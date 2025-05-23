@@ -13,3 +13,18 @@ D:\01 - Projetos\AluraOOP\AplicandoConhecimentosCursosAlura\obj\Debug\net8.0\Apl
 D:\01 - Projetos\AluraOOP\AplicandoConhecimentosCursosAlura\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.genruntimeconfig.cache
 D:\01 - Projetos\AluraOOP\AplicandoConhecimentosCursosAlura\obj\Debug\net8.0\ref\AplicandoConhecimentosCursosAlura.dll
 D:\01 - Projetos\AluraOOP\AplicandoConhecimentosCursosAlura\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.sourcelink.json
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\bin\Debug\net8.0\AplicandoConhecimentosCursosAlura.exe
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\bin\Debug\net8.0\AplicandoConhecimentosCursosAlura.deps.json
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\bin\Debug\net8.0\AplicandoConhecimentosCursosAlura.runtimeconfig.json
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\bin\Debug\net8.0\AplicandoConhecimentosCursosAlura.dll
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\bin\Debug\net8.0\AplicandoConhecimentosCursosAlura.pdb
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.AssemblyInfoInputs.cache
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.AssemblyInfo.cs
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.sourcelink.json
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.dll
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\obj\Debug\net8.0\refint\AplicandoConhecimentosCursosAlura.dll
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.pdb
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.genruntimeconfig.cache
+C:\Users\gustavo.almeida\Desktop\Projeto portifólio\STM-System\obj\Debug\net8.0\ref\AplicandoConhecimentosCursosAlura.dll
