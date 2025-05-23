@@ -1,9 +1,10 @@
 ﻿namespace AplicandoConhecimentosCursosAlura.Model;
 
-abstract class Cadastro
+interface ICadastro
 {
-    public abstract void AdicionarCadastro();
+    public abstract void AdicionarCadastro(string nome, string cidade, string estado, string pais, int opcao);
+    void AdicionarCadastro(string nome, string cidade, string estado, string pais, int opcao);
 
-    protected List<Fornecedor> _listaFornecedores { get; set; } = new List<Fornecedor>();
-    protected List<Cliente> _listaClientes { get; set; } = new List<Cliente>();
+    protected List<Fornecedor> _listaFornecedores { get; set; }
+    protected List<Cliente> _listaClientes { get; set; }
 }
