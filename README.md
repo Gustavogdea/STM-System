@@ -13,5 +13,6 @@ Funções (Ainda não desenvolvidas):
 
 Arquivos Serializados JSON e XML
 
+Tarefas Pendentes:
 
-- Necessário revisar menus C#, chamadas através de um dicionário com um int e uma função.
+Finalizar criação de função para cadastrar fornecedor e cliente
