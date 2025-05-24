@@ -59,4 +59,3 @@ git clone nome-do-repositorio
 
 ## Direitos Autorais
 Este projeto é de propriedade do autor e está protegido por direitos autorais. É proibida a reprodução total ou parcial deste projeto sem a autorização do autor.
-
