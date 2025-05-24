@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace AplicandoConhecimentosCursosAlura.Model;
 
-class Fornecedor : Cadastro
+class Fornecedor
 {
-    public Fornecedor(int codigoFornecedor, string? nome)
+    public Fornecedor(string? nome)
     {
-        CodigoFornecedor = codigoFornecedor;
         Nome = nome;
     }
 
@@ -20,16 +19,4 @@ class Fornecedor : Cadastro
     public string? Estado { get; set; }
     public string? Pais { get; set; }
 
-    public override void AdicionarCadastro()
-    {
-        _listaFornecedores.Add(this);
-        Console.WriteLine("Cadastro de Fornecedor Realizado com sucesso!...");
-    }
-    public void Listar()
-    {
-        foreach (var fornecedor in _listaFornecedores)
-        {
-            Console.WriteLine($"Código: {fornecedor.CodigoFornecedor}, Nome: {fornecedor.Nome}, Cidade: {fornecedor.Cidade}, Estado: {fornecedor.Estado}, País: {fornecedor.Pais}");
-        }
-    }
 }

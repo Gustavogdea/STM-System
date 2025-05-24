@@ -5,27 +5,28 @@
 //Fazer movimentação de estoque
 //Criar uma ordem de envio de pedido
 //Gerar um JSON
-
-using AplicandoConhecimentosCursosAlura;
 using AplicandoConhecimentosCursosAlura.Menu;
 using AplicandoConhecimentosCursosAlura.Model;
-var dicionarioOpcoes = new Dictionary<int, Opcoes>()
+{ 
+List<Cliente> _listaCliente = new List<Cliente>();
+List<Fornecedor> _listaFornecedor = new List<Fornecedor>();
+    var dicionarioOpcoes = new Dictionary<int, Opcoes>()
 {
     { 1, new Opcoes { Descricao = "Cadastrar Produto", Acao = () =>
             {
 				//não use menus estaticos nesse formato
 				//MenuCadastro.CadastrarPerfil();
 				//return MenuCadastro;
-				MenuCadastro.Cadastrar();
-				return null;
+				MenuCadastro.Cadastrar(_listaFornecedor, _listaCliente);
+                return null;
             }
         }
     },
     {2, new Opcoes{ Descricao = "Editar/Modificar Cadastro", Acao = () =>
             {
-                MenuCadastro.EditarCadastro();
+                MenuCadastro.ConsultaCadastro(_listaFornecedor, _listaCliente);
                 return null;
-            }   
+            }
         }
     },
     {3, new Opcoes{ Descricao = "Estoque", Acao = () =>
@@ -44,29 +45,54 @@ var dicionarioOpcoes = new Dictionary<int, Opcoes>()
     },
     {0, new Opcoes{ Descricao = "Sair", Acao = () =>
             {
-                
+
                 return null;
+
             }
         }
     },
 };
 
-var dicionarioOpcoesCadastro = new Dictionary<int, Opcoes>()
+    var dicionarioOpcoesPerfil = new Dictionary<int, Opcoes>()
 {
-    {1, new Opcoes {Descricao = "Cadastrar Fornecedor", Acao = () =>
+    {1, new Opcoes{ Descricao = "Exibir Lista de fornecedores", Acao = () =>
             {
-                MenuCadastro.Cadastrar();
+                
                 return null;
-            }    
+            }
         }
     }
 };
 
-Menu men = new Menu(dicionarioOpcoes, "Menu Principal");
-men.ShowMenu();
+    int verificador = 1;
+    while (verificador != 0)
+    {
+        Menu men = new Menu(dicionarioOpcoes, "Menu Principal");
+        men.ShowMenu();
+        Console.Write("Escolha: ");
+        int opcaoValue;
 
-MenuCadastro menCad = new MenuCadastro(dicionarioOpcoesCadastro, "Cadastros Fornecedor/Cliente");
-
-Console.Write("Escolha: ");
-int opcaoValue = int.Parse(Console.ReadLine()!);
-men.ExecuteMenu(opcaoValue);
+        if (int.TryParse(Console.ReadLine()!, out opcaoValue))
+        {
+            if (opcaoValue == 0)
+            {
+                verificador = 0;
+            }
+            men.ExecuteMenu(opcaoValue);
+        }
+        else
+        {
+            System.Console.WriteLine("Entrada inválida. Pressione qualquer tecla para continuar...");
+            Console.ReadKey();
+        }
+        if (opcaoValue != 0)
+        {
+            Console.WriteLine("\nPressione qualquer tecla para voltar ao menu...");
+            Console.ReadKey();
+        }
+        else
+        {
+            Console.WriteLine("Saindo da Aplicação...");
+        }
+    }
+}

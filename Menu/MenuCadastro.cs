@@ -1,5 +1,6 @@
 ﻿using AplicandoConhecimentosCursosAlura;
 using AplicandoConhecimentosCursosAlura.Functions;
+using AplicandoConhecimentosCursosAlura.Model;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
@@ -9,34 +10,38 @@ internal class MenuCadastro : Menu
 {
     public MenuCadastro(Dictionary<int, Opcoes> Opcoes, string Titulo) : base(Opcoes, Titulo)
     {
-        _opcoes = Opcoes;
         _titulo = Titulo;
     }
 
     private readonly string _titulo;
-    private readonly Dictionary<int, Opcoes> _opcoes;
 
-    public static void Cadastrar() 
+    public static void Cadastrar(List<Fornecedor> _listaFornecedor, List<Cliente> _listaCliente)
     {
 
-            Console.Write("Digite [0] para cadastrar Fornecedor e [1] para cadastrar Cliente: ");
-            int opcao = int.Parse(Console.ReadLine()!);
-            Console.Write("Digite o nome: ");
-            string nome = Console.ReadLine()!;
-            Console.Write("Digite a cidade: ");
-            string cidade = Console.ReadLine()!;
-            Console.Write("Digite o estado: ");
-            string estado = Console.ReadLine()!;
-            Console.Write("Digite o país: ");
-            string pais = Console.ReadLine()!;
-
-            ProcCadastro.AdicionarCadastro(nome, cidade, estado, pais, opcao);
-        }
+        Console.Write("Digite [0] para cadastrar Fornecedor e [1] para cadastrar Cliente: ");
+        int opcao = int.Parse(Console.ReadLine()!);
+        Console.Write("Digite o nome: ");
+        string nome = Console.ReadLine()!;
+        Console.Write("Digite a cidade: ");
+        string cidade = Console.ReadLine()!;
+        Console.Write("Digite o estado: ");
+        string estado = Console.ReadLine()!;
+        Console.Write("Digite o país: ");
+        string pais = Console.ReadLine()!;
+        ProcCadastro procCad = new ProcCadastro(nome, cidade, estado, pais, opcao, _listaFornecedor, _listaCliente);
+    }
+    
+    public static void ConsultaCadastro(List<Fornecedor> _listaFornecedor, List<Cliente> _listaCliente)
+    {
+        Console.Clear();
+        Console.Write("Qual o tipo de cadastros que deseja visualizar? [0] Fornecedor [1] Clientes:  ");
+        int opcaoListCad = int.Parse(Console.ReadLine()!);
+        ConsCadastro consultaCadastro = new ConsCadastro(opcaoListCad, _listaCliente, _listaFornecedor);
     }
 
     public static void EditarCadastro()
     {
-
+                
     }
 
     //private static List<Funcoes> _listaFuncoesCadastro = new List<Funcoes>()
@@ -84,6 +89,7 @@ internal class MenuCadastro : Menu
     //            Console.WriteLine("Opção Inválida!...");
     //            break;  
     //    }
+
 
     //}
 
