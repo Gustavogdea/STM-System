@@ -1,5 +1,6 @@
 ﻿using AplicandoConhecimentosCursosAlura;
 using AplicandoConhecimentosCursosAlura.Functions;
+using AplicandoConhecimentosCursosAlura.Model;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
@@ -14,7 +15,7 @@ internal class MenuCadastro : Menu
 
     private readonly string _titulo;
 
-    public static void Cadastrar()
+    public static void Cadastrar(List<Fornecedor> _listaFornecedor, List<Cliente> _listaCliente)
     {
 
         Console.Write("Digite [0] para cadastrar Fornecedor e [1] para cadastrar Cliente: ");
@@ -27,14 +28,20 @@ internal class MenuCadastro : Menu
         string estado = Console.ReadLine()!;
         Console.Write("Digite o país: ");
         string pais = Console.ReadLine()!;
-
-        ProcCadastro procCad = new ProcCadastro(nome, cidade, estado, pais, opcao);
+        ProcCadastro procCad = new ProcCadastro(nome, cidade, estado, pais, opcao, _listaFornecedor, _listaCliente);
     }
     
+    public static void ConsultaCadastro(List<Fornecedor> _listaFornecedor, List<Cliente> _listaCliente)
+    {
+        Console.Clear();
+        Console.Write("Qual o tipo de cadastros que deseja visualizar? [0] Fornecedor [1] Clientes:  ");
+        int opcaoListCad = int.Parse(Console.ReadLine()!);
+        ConsCadastro consultaCadastro = new ConsCadastro(opcaoListCad, _listaCliente, _listaFornecedor);
+    }
 
     public static void EditarCadastro()
     {
-        
+                
     }
 
     //private static List<Funcoes> _listaFuncoesCadastro = new List<Funcoes>()
