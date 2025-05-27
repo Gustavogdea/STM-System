@@ -4,6 +4,7 @@ namespace AplicandoConhecimentosCursosAlura.Menu;
 
 class Menu
 {
+    #region Construtores_Listas
     private readonly Dictionary<int, Opcoes> _opcoes;
     private readonly string _titulo;
 	public static string? tituloPrograma = "===   STM ESTOQUE ENLATADOS   ===";
@@ -17,22 +18,18 @@ class Menu
         _opcoes = Opcoes;
 		_titulo = Titulo;
 	}
-
-    //public static string? mensagemRetorno = "Aperte qualquer tecla para retornar ao menu...";
-    //public static string? mensagemRedirect = "Redirecionando ao menu escolhido...";
-    //public static string? retornarMenu = "Para retornar ao menu anterior tecle [ 0 ] ...";
+    #endregion
     public void MontarCabecalho()
     {
 		Console.Clear();
 		Console.WriteLine($"===   {_titulo}   ===");
-		Console.Clear();
     }
     public static void MontarRodape()
     {
         Console.WriteLine(barraSimples);
         Console.WriteLine(barraPrograma);
     }
-    public void ShowMenu()
+    public virtual void ShowMenu()
     {
         Console.Clear();
         MontarCabecalho();
@@ -42,7 +39,7 @@ class Menu
 		}
         MontarRodape();
 	}
-    public object ExecuteMenu(int index)
+    public virtual object ExecuteMenu(int index)
     {
         return _opcoes[index].Acao();
 	}

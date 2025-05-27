@@ -10,9 +10,54 @@ using AplicandoConhecimentosCursosAlura.Model;
 { 
 List<Cliente> _listaCliente = new List<Cliente>();
 List<Fornecedor> _listaFornecedor = new List<Fornecedor>();
+    var dicionarioOpcoesCadastro = new Dictionary<int, Opcoes>()
+{
+    {1, new Opcoes{ Descricao = "Exibir Lista de fornecedores ou Clientes", Acao = () =>
+            {
+                MenuCadastro.ConsultaCadastro(_listaFornecedor, _listaCliente);
+                return null;
+            }
+        }
+    },
+    {2, new Opcoes{ Descricao = "Pesquisar por nome Fornecedor", Acao = () => 
+            {
+                MenuCadastro.PesquisarNomeFornecedor(_listaFornecedor);
+                return null;      
+            } 
+        } 
+    },
+    {3, new Opcoes{ Descricao = "Deletar Fornecedor", Acao = () =>
+            {
+                MenuCadastro.DeletarFornecedor(_listaFornecedor);
+                return null;
+            } 
+        } 
+    },
+    {4, new Opcoes{ Descricao = "Pesquisar por nome Cliente", Acao = () =>
+            {
+                MenuCadastro.PesquisarNomeCliente(_listaCliente);
+                return null;
+            }
+        }
+    },
+    {5, new Opcoes{ Descricao = "Deletar Cliente", Acao = () =>
+            {
+                MenuCadastro.DeletarCliente(_listaCliente);
+                return null;
+            }
+        }
+    },
+    {0, new Opcoes{ Descricao = "Voltar para o Menu", Acao = () =>
+            {
+                return null;
+            }
+        }
+    }
+};
+
     var dicionarioOpcoes = new Dictionary<int, Opcoes>()
 {
-    { 1, new Opcoes { Descricao = "Cadastrar Produto", Acao = () =>
+    { 1, new Opcoes { Descricao = "Cadastrar", Acao = () =>
             {
 				//não use menus estaticos nesse formato
 				//MenuCadastro.CadastrarPerfil();
@@ -24,7 +69,8 @@ List<Fornecedor> _listaFornecedor = new List<Fornecedor>();
     },
     {2, new Opcoes{ Descricao = "Editar/Modificar Cadastro", Acao = () =>
             {
-                MenuCadastro.ConsultaCadastro(_listaFornecedor, _listaCliente);
+                MenuCadastro menuCadastro = new MenuCadastro(dicionarioOpcoesCadastro, "Visualizar Cadastro");
+                menuCadastro.ShowMenu();
                 return null;
             }
         }
@@ -38,7 +84,7 @@ List<Fornecedor> _listaFornecedor = new List<Fornecedor>();
     },
     {4, new Opcoes{ Descricao = "Gerenciamento de Pedidos", Acao = () =>
             {
-                MenuCadastro.EditarCadastro();
+                
                 return null;
             }
         }
@@ -51,17 +97,6 @@ List<Fornecedor> _listaFornecedor = new List<Fornecedor>();
             }
         }
     },
-};
-
-    var dicionarioOpcoesPerfil = new Dictionary<int, Opcoes>()
-{
-    {1, new Opcoes{ Descricao = "Exibir Lista de fornecedores", Acao = () =>
-            {
-                
-                return null;
-            }
-        }
-    }
 };
 
     int verificador = 1;

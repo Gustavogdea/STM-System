@@ -8,16 +8,17 @@ namespace AplicandoConhecimentosCursosAlura.Menu;
 
 internal class MenuCadastro : Menu
 {
+    private readonly Dictionary<int, Opcoes> _opcoes;
     public MenuCadastro(Dictionary<int, Opcoes> Opcoes, string Titulo) : base(Opcoes, Titulo)
     {
         _titulo = Titulo;
+        _opcoes = Opcoes;
     }
 
     private readonly string _titulo;
 
     public static void Cadastrar(List<Fornecedor> _listaFornecedor, List<Cliente> _listaCliente)
     {
-
         Console.Write("Digite [0] para cadastrar Fornecedor e [1] para cadastrar Cliente: ");
         int opcao = int.Parse(Console.ReadLine()!);
         Console.Write("Digite o nome: ");
@@ -39,75 +40,43 @@ internal class MenuCadastro : Menu
         ConsCadastro consultaCadastro = new ConsCadastro(opcaoListCad, _listaCliente, _listaFornecedor);
     }
 
-    public static void EditarCadastro()
+    public override void ShowMenu()
     {
-                
+        base.ShowMenu();
+        Console.Write("Escolha: ");
+        int opcao = int.Parse(Console.ReadLine()!);
+        ExecuteMenu(opcao);   
     }
 
-    //private static List<Funcoes> _listaFuncoesCadastro = new List<Funcoes>()
-    //{
-    //    new Funcoes { Descricao = "Cadastrar Fornecedor"},
-    //    new Funcoes { Descricao = "Cadastrar Cliente"},
-    //};
-    //private static List<Funcoes> _listaFuncoesVisualizarEModificar = new List<Funcoes>()
-    //{
-    //    new Funcoes {Descricao = "Listar Clientes"},
-    //    new Funcoes {Descricao = "Pesquisar Cliente"},
-    //    new Funcoes {Descricao = "Ordenar Lista Clientes"},
-    //    new Funcoes {Descricao = "Deletar Cliente"},
-    //    new Funcoes {Descricao = "Limpar Lista Clien.(!)"},
-    //    new Funcoes {Descricao = "Listar Fornecedores"},
-    //    new Funcoes {Descricao = "Pesquisar Fornecedor"},
-    //    new Funcoes {Descricao = "Ordenar Lista Fornec."},
-    //    new Funcoes {Descricao = "Deletar Fornecedor"},
-    //    new Funcoes {Descricao = "Limpar lista Forn.(!)"},
-    //};
-    //public void CadastrarPerfil() 
-    //{
-    //    Console.Clear();
-    //    MontarCabecalho();
-    //    int contador = 1;
-    //    foreach (var funcao in _listaFuncoesCadastro)
-    //    {
-    //        Console.WriteLine($"=== {contador} - {funcao.Descricao}");
-    //        contador++;
-    //    }
-    //    MontarRodape();
-    //    Console.WriteLine(retornarMenu);
-    //    Console.WriteLine("\n");
-    //    Console.Write("Digite a opção desejada: ");
-    //    int opcao = int.Parse(Console.ReadLine()!);
-    //    switch (opcao)
-    //    {
-    //        case 1: 
-    //            Cadastrar.OperacaoCadastroFornecedor();
-    //            break;
-    //        case 2:
-    //            Cadastrar.OperacaoCadastroCliente();
-    //            break;
-    //        default:
-    //            Console.WriteLine("Opção Inválida!...");
-    //            break;  
-    //    }
-
-
-    //}
-
-    //public void FuncoesVisualizarEModificar()
-    //{
-    //    Console.Clear();
-    //    MontarCabecalho();
-    //    int contador = 1;
-    //    foreach (var funcao in _listaFuncoesVisualizarEModificar)
-    //    {
-    //        Console.WriteLine($"=== {contador} - {funcao.Descricao}");
-    //        contador++;
-    //    }
-    //    MontarRodape();
-    //    Console.WriteLine(retornarMenu);
-    //    Console.WriteLine("\n");
-    //    Console.Write("Digite a opção desejada: ");
-    //    int opcao = int.Parse(Console.ReadLine()!);
-
-    //}
+    internal static void PesquisarNomeFornecedor(List<Fornecedor> listaFornecedor)
+    {
+        Console.Clear();
+        Console.Write("Digite o nome do Fornecedor: ");
+        string buscaNome = Console.ReadLine()!;
+        var fornecedoresFiltrados = listaFornecedor.ToList().Where(lf => lf.Nome.Contains(buscaNome));
+        Console.WriteLine("=== FORNECEDORES: \n\n");
+        foreach (var listaComFiltro in fornecedoresFiltrados)
+        {
+            Console.WriteLine($"[{listaComFiltro.CodigoFornecedor}] - {listaComFiltro.Nome}");
+        }
+    }
+    internal static void DeletarFornecedor(List<Fornecedor> listaFornecedor)
+    {
+        Console.Clear();
+        Console.Write("Digite o nome do Fornecedor a ser deletado: ");
+        string buscaNome = Console.ReadLine()!;
+        var buscaNomeDel = listaFornecedor.FirstOrDefault(lf => lf.Nome.Equals(buscaNome));
+        if (buscaNomeDel != null)
+        {
+            listaFornecedor.Remove(buscaNomeDel);
+        }
+    }
+    internal static void PesquisarNomeCliente(List<Cliente> listaCliente)
+    {
+        throw new NotImplementedException();
+    }
+    internal static void DeletarCliente(List<Cliente> listaCliente)
+    {
+        throw new NotImplementedException();
+    }
 }
