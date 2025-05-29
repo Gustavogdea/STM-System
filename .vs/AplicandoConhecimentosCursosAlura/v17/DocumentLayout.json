@@ -3,44 +3,32 @@
   "WorkspaceRootPath": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\menu\\funcoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:menu\\funcoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\menu\\menuvendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:menu\\menuvendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\menu\\menuestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:menu\\menuestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\menu\\menucadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:menu\\menucadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\functions\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:functions\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\functions\\conscadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:functions\\conscadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\model\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:model\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\functions\\proccadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:functions\\proccadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\menu\\menuestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:menu\\menuestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\model\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:model\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|d:\\01 - projetos\\aluraoop\\aplicandoconhecimentoscursosalura\\menu\\funcoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D301F1-55D8-4EBB-8321-A73320820560}|AplicandoConhecimentosCursosAlura.csproj|solutionrelative:menu\\funcoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,8 +37,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "DockedWidth": 369,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,21 +49,58 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuVendas.cs",
-              "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\MenuVendas.cs",
-              "RelativeDocumentMoniker": "Menu\\MenuVendas.cs",
-              "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\MenuVendas.cs",
-              "RelativeToolTip": "Menu\\MenuVendas.cs",
+              "DocumentIndex": 1,
+              "Title": "ConsCadastro.cs",
+              "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Functions\\ConsCadastro.cs",
+              "RelativeDocumentMoniker": "Functions\\ConsCadastro.cs",
+              "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Functions\\ConsCadastro.cs",
+              "RelativeToolTip": "Functions\\ConsCadastro.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T01:03:55.467Z",
+              "WhenOpened": "2025-05-27T02:03:16.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "ProcCadastro.cs",
+              "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Functions\\ProcCadastro.cs",
+              "RelativeDocumentMoniker": "Functions\\ProcCadastro.cs",
+              "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Functions\\ProcCadastro.cs",
+              "RelativeToolTip": "Functions\\ProcCadastro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:03:15.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MenuEstoque.cs",
               "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\MenuEstoque.cs",
               "RelativeDocumentMoniker": "Menu\\MenuEstoque.cs",
@@ -83,112 +108,70 @@
               "RelativeToolTip": "Menu\\MenuEstoque.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T01:03:52.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cadastrar.cs",
-              "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Functions\\Cadastrar.cs",
-              "RelativeDocumentMoniker": "Functions\\Cadastrar.cs",
-              "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Functions\\Cadastrar.cs",
-              "RelativeToolTip": "Functions\\Cadastrar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T00:45:27.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Fornecedor.cs",
-              "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Model\\Fornecedor.cs",
-              "RelativeDocumentMoniker": "Model\\Fornecedor.cs",
-              "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Model\\Fornecedor.cs",
-              "RelativeToolTip": "Model\\Fornecedor.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T00:39:51.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Model\\Cliente.cs",
-              "RelativeDocumentMoniker": "Model\\Cliente.cs",
-              "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Model\\Cliente.cs",
-              "RelativeToolTip": "Model\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T00:39:48.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cadastro.cs",
-              "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Model\\Cadastro.cs",
-              "RelativeDocumentMoniker": "Model\\Cadastro.cs",
-              "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Model\\Cadastro.cs",
-              "RelativeToolTip": "Model\\Cadastro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T00:39:44.729Z",
+              "WhenOpened": "2025-05-27T01:22:46.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MenuCadastro.cs",
-              "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\MenuCadastro.cs",
-              "RelativeDocumentMoniker": "Menu\\MenuCadastro.cs",
-              "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\MenuCadastro.cs",
-              "RelativeToolTip": "Menu\\MenuCadastro.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwC4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T00:12:28.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Funcoes.cs",
-              "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\Funcoes.cs",
-              "RelativeDocumentMoniker": "Menu\\Funcoes.cs",
-              "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\Funcoes.cs",
-              "RelativeToolTip": "Menu\\Funcoes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T23:40:17.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T23:28:27.588Z",
+              "WhenOpened": "2025-05-27T01:05:07.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Funcoes.cs",
+              "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\Funcoes.cs",
+              "RelativeDocumentMoniker": "Menu\\Funcoes.cs",
+              "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\Funcoes.cs",
+              "RelativeToolTip": "Menu\\Funcoes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T01:01:42.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Menu.cs",
               "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\Menu.cs",
               "RelativeDocumentMoniker": "Menu\\Menu.cs",
               "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\Menu.cs",
               "RelativeToolTip": "Menu\\Menu.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwEgAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T23:28:34.132Z",
+              "WhenOpened": "2025-05-27T01:01:20.671Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuCadastro.cs",
+              "DocumentMoniker": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\MenuCadastro.cs",
+              "RelativeDocumentMoniker": "Menu\\MenuCadastro.cs",
+              "ToolTip": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\Menu\\MenuCadastro.cs*",
+              "RelativeToolTip": "Menu\\MenuCadastro.cs*",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T01:00:08.248Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 166,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             }
           ]
         }

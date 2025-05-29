@@ -1,9 +1,16 @@
-﻿namespace AplicandoConhecimentosCursosAlura.Menu;
+﻿using System.Security.Cryptography.X509Certificates;
 
-class MenuEstoque : Menu
+namespace AplicandoConhecimentosCursosAlura.Menu;
+
+class MenuEstoque
 {
+    public static void AcessoEstoque()
+    {
+
+    }
     public static void FuncoesEstoque()
     {
+
         Console.Clear();
         Console.WriteLine("=================================");
         Console.WriteLine("===   STM ESTOQUE ENLATADOS   ===");

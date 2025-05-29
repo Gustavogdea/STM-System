@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\AplicandoConhecimentosCursosAlura.csproj": {}
+    "C:\\Users\\gustavo.almeida\\Desktop\\STM - Projeto\\STM-System\\AplicandoConhecimentosCursosAlura.csproj": {}
   },
   "projects": {
-    "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\AplicandoConhecimentosCursosAlura.csproj": {
+    "C:\\Users\\gustavo.almeida\\Desktop\\STM - Projeto\\STM-System\\AplicandoConhecimentosCursosAlura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\AplicandoConhecimentosCursosAlura.csproj",
+        "projectUniqueName": "C:\\Users\\gustavo.almeida\\Desktop\\STM - Projeto\\STM-System\\AplicandoConhecimentosCursosAlura.csproj",
         "projectName": "AplicandoConhecimentosCursosAlura",
-        "projectPath": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\AplicandoConhecimentosCursosAlura.csproj",
-        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "D:\\01 - Projetos\\AluraOOP\\AplicandoConhecimentosCursosAlura\\obj\\",
+        "projectPath": "C:\\Users\\gustavo.almeida\\Desktop\\STM - Projeto\\STM-System\\AplicandoConhecimentosCursosAlura.csproj",
+        "packagesPath": "C:\\Users\\gustavo.almeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavo.almeida\\Desktop\\STM - Projeto\\STM-System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gustavo.almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -61,30 +60,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.16, 8.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
