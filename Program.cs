@@ -7,9 +7,64 @@
 //Gerar um JSON
 using AplicandoConhecimentosCursosAlura.Menu;
 using AplicandoConhecimentosCursosAlura.Model;
-{ 
-List<Cliente> _listaCliente = new List<Cliente>();
-List<Fornecedor> _listaFornecedor = new List<Fornecedor>();
+{
+    List<Cliente> _listaCliente = new List<Cliente>();
+    List<Fornecedor> _listaFornecedor = new List<Fornecedor>();
+    List<Produto> _listaProduto = new List<Produto>();
+
+var dicionarioOpcoesEstoque = new Dictionary<int, Opcoes>()
+{
+    {1, new Opcoes{ Descricao = "Listar Produtos em estoque", Acao = () =>
+            {
+                MenuEstoque.VisualizarEstoque(_listaProduto, _listaFornecedor);
+                return null;
+            }
+        }
+    },
+    {2, new Opcoes{ Descricao = "Adicionar item", Acao = () =>
+            {
+                MenuEstoque.AdicionarItemEstoque(_listaProduto, _listaFornecedor);
+                return null;
+            }
+        }
+    },
+    {3, new Opcoes{ Descricao = "Remover item", Acao = () =>
+            {
+                MenuEstoque.RemoverItemEstoque(_listaProduto, _listaFornecedor);
+                return null;
+            }
+        }
+    },
+    {4, new Opcoes{ Descricao = "Atualizar item", Acao = () =>
+            {
+                MenuEstoque.AtualizarItem(_listaProduto, _listaFornecedor);
+                return null;
+            }
+        }
+    },
+    {5, new Opcoes{ Descricao = "Importar Estoque", Acao = () =>
+            {
+                MenuEstoque.ImportarEstoque(_listaProduto, _listaFornecedor);
+                return null;
+            }
+        }
+    },
+    {6, new Opcoes{ Descricao = "Exportar Estoque", Acao = () =>
+            {
+                MenuEstoque.ExportarEstoque(_listaProduto, _listaFornecedor);
+                return null;
+            }
+        }
+    },
+    {0, new Opcoes{ Descricao = "Voltar para o menu", Acao = () =>
+            {
+                return null;
+            }
+        }
+    }
+    
+};
+    
 var dicionarioOpcoesCadastro = new Dictionary<int, Opcoes>()
 {
     {1, new Opcoes{ Descricao = "Exibir Lista de fornecedores ou Clientes", Acao = () =>
@@ -91,7 +146,8 @@ var dicionarioOpcoesCadastro = new Dictionary<int, Opcoes>()
     },
     {3, new Opcoes{ Descricao = "Estoque", Acao = () =>
             {
-                MenuEstoque.AcessoEstoque();
+                MenuEstoque menuEstoque = new MenuEstoque(dicionarioOpcoesEstoque, "Estoque/Depósito");
+                menuEstoque.ShowMenu();
                 return null;
             }
         }

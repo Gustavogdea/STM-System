@@ -1,32 +1,56 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Security.Cryptography.X509Certificates;
+using AplicandoConhecimentosCursosAlura.Model;
 
 namespace AplicandoConhecimentosCursosAlura.Menu;
 
-class MenuEstoque
+class MenuEstoque : Menu
 {
-    public static void AcessoEstoque()
+    public MenuEstoque(Dictionary<int, Opcoes> Opcoes, string Titulo) : base(Opcoes, Titulo)
     {
-
+        _titulo = Titulo;
+        _opcoes = Opcoes;
     }
-    public static void FuncoesEstoque()
-    {
+    private readonly Dictionary<int, Opcoes> _opcoes;
+    private readonly string _titulo;
 
-        Console.Clear();
-        Console.WriteLine("=================================");
-        Console.WriteLine("===   STM ESTOQUE ENLATADOS   ===");
-        Console.WriteLine("===                           ===");
-        Console.WriteLine("=== Operações de Estoque:     ===");
-        Console.WriteLine("===                           ===");
-        Console.WriteLine("=== 1- Visualizar Estoque     ===");
-        Console.WriteLine("=== 2- Receber Estoque        ===");
-        Console.WriteLine("=== 3- Pesquisar Estoque      ===");
-        Console.WriteLine("=== 4- Adicionar Produto Man  ===");
-        Console.WriteLine("=== 5- Remover Produto        ===");
-        Console.WriteLine("=== 0- Voltar                 ===");
-        Console.WriteLine("===                           ===");
-        Console.WriteLine("=================================");
-        Console.WriteLine("\n\n");
-        Console.Write("Digite a opção desejada: ");
+    public override void ShowMenu()
+    {
+        base.ShowMenu();
+        Console.Write("Escolha: ");
         int opcao = int.Parse(Console.ReadLine()!);
+        ExecuteMenu(opcao); 
+    }
+
+    internal static void AdicionarItemEstoque(List<Produto> listaProduto, List<Fornecedor> listaFornecedor)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static void AtualizarItem(List<Produto> listaProduto, List<Fornecedor> listaFornecedor)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static void ExportarEstoque(List<Produto> listaProduto, List<Fornecedor> listaFornecedor)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static void ImportarEstoque(List<Produto> listaProduto, List<Fornecedor> listaFornecedor)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static void RemoverItemEstoque(List<Produto> listaProduto, List<Fornecedor> listaFornecedor)
+    {
+        //Remove item escolhido em consulta por produto, fornecedor, data de entrada, ou id
+        throw new NotImplementedException();
+    }
+
+    internal static void VisualizarEstoque(List<Produto> listaProduto, List<Fornecedor> listaFornecedor)
+    {
+        //Execute uma pesquisa por produto, por fornecedor, data de entrada ou id
+        throw new NotImplementedException();
     }
 }

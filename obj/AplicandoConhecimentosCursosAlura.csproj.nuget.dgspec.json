@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gustavo.almeida\\Desktop\\STM - Projeto\\STM-System\\AplicandoConhecimentosCursosAlura.csproj": {}
+    "C:\\Users\\gustavo.almeida\\Documents\\HD_REDE\\Almeida\\Projeto C#\\STM-System\\AplicandoConhecimentosCursosAlura.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gustavo.almeida\\Desktop\\STM - Projeto\\STM-System\\AplicandoConhecimentosCursosAlura.csproj": {
+    "C:\\Users\\gustavo.almeida\\Documents\\HD_REDE\\Almeida\\Projeto C#\\STM-System\\AplicandoConhecimentosCursosAlura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gustavo.almeida\\Desktop\\STM - Projeto\\STM-System\\AplicandoConhecimentosCursosAlura.csproj",
+        "projectUniqueName": "C:\\Users\\gustavo.almeida\\Documents\\HD_REDE\\Almeida\\Projeto C#\\STM-System\\AplicandoConhecimentosCursosAlura.csproj",
         "projectName": "AplicandoConhecimentosCursosAlura",
-        "projectPath": "C:\\Users\\gustavo.almeida\\Desktop\\STM - Projeto\\STM-System\\AplicandoConhecimentosCursosAlura.csproj",
+        "projectPath": "C:\\Users\\gustavo.almeida\\Documents\\HD_REDE\\Almeida\\Projeto C#\\STM-System\\AplicandoConhecimentosCursosAlura.csproj",
         "packagesPath": "C:\\Users\\gustavo.almeida\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gustavo.almeida\\Desktop\\STM - Projeto\\STM-System\\obj\\",
+        "outputPath": "C:\\Users\\gustavo.almeida\\Documents\\HD_REDE\\Almeida\\Projeto C#\\STM-System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
