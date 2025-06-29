@@ -58,3 +58,18 @@ C:\Users\gustavo.almeida\Documents\HD_REDE\Almeida\Projeto C#\STM-System\obj\Deb
 C:\Users\gustavo.almeida\Documents\HD_REDE\Almeida\Projeto C#\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.pdb
 C:\Users\gustavo.almeida\Documents\HD_REDE\Almeida\Projeto C#\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.genruntimeconfig.cache
 C:\Users\gustavo.almeida\Documents\HD_REDE\Almeida\Projeto C#\STM-System\obj\Debug\net8.0\ref\AplicandoConhecimentosCursosAlura.dll
+D:\01 - Projetos\STM System\STM-System\bin\Debug\net8.0\AplicandoConhecimentosCursosAlura.exe
+D:\01 - Projetos\STM System\STM-System\bin\Debug\net8.0\AplicandoConhecimentosCursosAlura.deps.json
+D:\01 - Projetos\STM System\STM-System\bin\Debug\net8.0\AplicandoConhecimentosCursosAlura.runtimeconfig.json
+D:\01 - Projetos\STM System\STM-System\bin\Debug\net8.0\AplicandoConhecimentosCursosAlura.dll
+D:\01 - Projetos\STM System\STM-System\bin\Debug\net8.0\AplicandoConhecimentosCursosAlura.pdb
+D:\01 - Projetos\STM System\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.GeneratedMSBuildEditorConfig.editorconfig
+D:\01 - Projetos\STM System\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.AssemblyInfoInputs.cache
+D:\01 - Projetos\STM System\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.AssemblyInfo.cs
+D:\01 - Projetos\STM System\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.csproj.CoreCompileInputs.cache
+D:\01 - Projetos\STM System\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.sourcelink.json
+D:\01 - Projetos\STM System\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.dll
+D:\01 - Projetos\STM System\STM-System\obj\Debug\net8.0\refint\AplicandoConhecimentosCursosAlura.dll
+D:\01 - Projetos\STM System\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.pdb
+D:\01 - Projetos\STM System\STM-System\obj\Debug\net8.0\AplicandoConhecimentosCursosAlura.genruntimeconfig.cache
+D:\01 - Projetos\STM System\STM-System\obj\Debug\net8.0\ref\AplicandoConhecimentosCursosAlura.dll

@@ -14,7 +14,7 @@ class Fornecedor
     }
 
     public int CodigoFornecedor { get; set; }
-    public string? Nome { get; set; }
+    public string? Nome { get; }
     public string? Cidade { get; set; }
     public string? Estado { get; set; }
     public string? Pais { get; set; }

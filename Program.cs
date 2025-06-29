@@ -7,6 +7,7 @@
 //Gerar um JSON
 using AplicandoConhecimentosCursosAlura.Menu;
 using AplicandoConhecimentosCursosAlura.Model;
+
 {
     List<Cliente> _listaCliente = new List<Cliente>();
     List<Fornecedor> _listaFornecedor = new List<Fornecedor>();
@@ -16,7 +17,7 @@ var dicionarioOpcoesEstoque = new Dictionary<int, Opcoes>()
 {
     {1, new Opcoes{ Descricao = "Listar Produtos em estoque", Acao = () =>
             {
-                MenuEstoque.VisualizarEstoque(_listaProduto, _listaFornecedor);
+                MenuEstoque.VisualizarEstoque(_listaProduto);
                 return null;
             }
         }
@@ -148,6 +149,21 @@ var dicionarioOpcoesCadastro = new Dictionary<int, Opcoes>()
             {
                 MenuEstoque menuEstoque = new MenuEstoque(dicionarioOpcoesEstoque, "Estoque/Depósito");
                 menuEstoque.ShowMenu();
+                //Fornecedor fornecedor1 = new Fornecedor("PEPE Legal")
+                //{ 
+                //    CodigoFornecedor = 1,
+                //    Cidade = "São Paulo",
+                //    Estado = "SP",
+                //    Pais = "Brasil"
+                //};
+
+                
+                //Produto produto = new Produto("Baconzitos", "PEPE Legal", fornecedor1)
+                //{
+                //    Quantidade = 100,
+                //    ValorUnitario = 2.50m
+                //};
+                //produto.ExibirProduto();
                 return null;
             }
         }

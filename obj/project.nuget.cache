@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "EOr7Zs6lLYk=",
+  "dgSpecHash": "OVGFvvVmv0Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gustavo.almeida\\Documents\\HD_REDE\\Almeida\\Projeto C#\\STM-System\\AplicandoConhecimentosCursosAlura.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\01 - Projetos\\STM System\\STM-System\\AplicandoConhecimentosCursosAlura.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.17\\microsoft.netcore.app.ref.8.0.17.nupkg.sha512",
+    "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.17\\microsoft.windowsdesktop.app.ref.8.0.17.nupkg.sha512",
+    "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.17\\microsoft.aspnetcore.app.ref.8.0.17.nupkg.sha512",
+    "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.17\\microsoft.netcore.app.host.win-x64.8.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
