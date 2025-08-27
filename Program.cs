@@ -7,13 +7,34 @@
 //Gerar um JSON
 using AplicandoConhecimentosCursosAlura.Menu;
 using AplicandoConhecimentosCursosAlura.Model;
+using System.Threading.Tasks.Dataflow;
 
 {
     List<Cliente> _listaCliente = new List<Cliente>();
     List<Fornecedor> _listaFornecedor = new List<Fornecedor>();
     List<Produto> _listaProduto = new List<Produto>();
 
-var dicionarioOpcoesEstoque = new Dictionary<int, Opcoes>()
+    _listaFornecedor = new List<Fornecedor>()
+    {
+       new Fornecedor("Elma Chips")
+       {
+           CodigoFornecedor = 1,
+           Cidade = "São Paulo",
+           Estado = "SP",
+           Pais = "Brasil"
+       }
+    };
+    _listaProduto = new List<Produto>()
+    {
+        new Produto("Doritos", "Elma Chips")
+        {
+            Quantidade = 10,
+            ValorUnitario = 3,
+            Id = 1
+        }
+    };
+
+    var dicionarioOpcoesEstoque = new Dictionary<int, Opcoes>()
 {
     {1, new Opcoes{ Descricao = "Listar Produtos em estoque", Acao = () =>
             {
