@@ -14,25 +14,25 @@ using System.Threading.Tasks.Dataflow;
     List<Fornecedor> _listaFornecedor = new List<Fornecedor>();
     List<Produto> _listaProduto = new List<Produto>();
 
-    _listaFornecedor = new List<Fornecedor>()
-    {
-       new Fornecedor("Elma Chips")
-       {
-           CodigoFornecedor = 1,
-           Cidade = "São Paulo",
-           Estado = "SP",
-           Pais = "Brasil"
-       }
-    };
-    _listaProduto = new List<Produto>()
-    {
-        new Produto("Doritos", "Elma Chips")
-        {
-            Quantidade = 10,
-            ValorUnitario = 3,
-            Id = 1
-        }
-    };
+    //_listaFornecedor = new List<Fornecedor>()
+    //{
+    //   new Fornecedor("Elma Chips")
+    //   {
+    //       CodigoFornecedor = 1,
+    //       Cidade = "São Paulo",
+    //       Estado = "SP",
+    //       Pais = "Brasil"
+    //   }
+    //};
+    //_listaProduto = new List<Produto>()
+    //{
+    //    new Produto("Doritos", "Elma Chips")
+    //    {
+    //        Quantidade = 10,
+    //        ValorUnitario = 3,
+    //        Id = 1
+    //    }
+    //};
 
     var dicionarioOpcoesEstoque = new Dictionary<int, Opcoes>()
 {
