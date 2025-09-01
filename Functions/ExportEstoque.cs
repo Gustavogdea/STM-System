@@ -16,13 +16,14 @@ class ExportEstoque
         {
             throw new Exception("Lista de Produtos Vazia!");
         }
-        else if(!(formato.Equals(FormatoArquivo.Xml)) || !(formato.Equals(FormatoArquivo.Txt)))
+        //else if(!(formato == 1 || formato == 2))
+        else if (!(formato.Equals((int)FormatoArquivo.Xml)) && !(formato.Equals((int)FormatoArquivo.Txt))) 
         {
             throw new Exception("Formato de Arquivo desejado não encontrado!");
         }
         else
         {
-            if (FormatoArquivo.Xml.Equals(formato)) { ExportarDados(_listaProdutos, FormatoArquivo.Xml); }
+            if (formato.Equals((int)FormatoArquivo.Xml)) { ExportarDados(_listaProdutos, FormatoArquivo.Xml); }
             else { ExportarDados(_listaProdutos, FormatoArquivo.Txt); }
         }
     }
@@ -30,8 +31,9 @@ class ExportEstoque
     private static void ExportarDados(List<Produto> produtos, FormatoArquivo formato)
     {
         string arquivoNome = "DadosExportados";
-        if(formato == FormatoArquivo.Xml)
+        if(formato.Equals(FormatoArquivo.Xml))
         {
+            //Verificar geração de arquivo JSON
             var serializar = new XmlSerializer(typeof(Produto));
             try
             {
@@ -47,7 +49,7 @@ class ExportEstoque
                 throw new Exception($"O seguinte erro foi gerado na exportação do xml: {ex.Message}");
             }
         }
-        if(formato == FormatoArquivo.Txt)
+        if(formato.Equals(FormatoArquivo.Txt))
         {
             try
             {

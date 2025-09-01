@@ -1,0 +1,38 @@
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\STM-System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\STM-System.AssemblyInfoInputs.cache
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\STM-System.AssemblyInfo.cs
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\STM-System.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\STM-System.sourcelink.json
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\STM-System.csproj.AssemblyReference.cache
+C:\Users\gustavo.almeida\Documents\STM-System\bin\Debug\net8.0\STM-System.exe
+C:\Users\gustavo.almeida\Documents\STM-System\bin\Debug\net8.0\STM-System.deps.json
+C:\Users\gustavo.almeida\Documents\STM-System\bin\Debug\net8.0\STM-System.runtimeconfig.json
+C:\Users\gustavo.almeida\Documents\STM-System\bin\Debug\net8.0\STM-System.dll
+C:\Users\gustavo.almeida\Documents\STM-System\bin\Debug\net8.0\STM-System.pdb
+C:\Users\gustavo.almeida\Documents\STM-System\bin\Debug\net8.0\STM-System.Models.dll
+C:\Users\gustavo.almeida\Documents\STM-System\bin\Debug\net8.0\STM-System.Models.pdb
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\STM-System.csproj.Up2Date
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\STM-System.dll
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\refint\STM-System.dll
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\STM-System.pdb
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\STM-System.genruntimeconfig.cache
+C:\Users\gustavo.almeida\Documents\STM-System\obj\Debug\net8.0\ref\STM-System.dll
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\bin\Debug\net8.0\STM-System.exe
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\bin\Debug\net8.0\STM-System.deps.json
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\bin\Debug\net8.0\STM-System.runtimeconfig.json
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\bin\Debug\net8.0\STM-System.dll
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\bin\Debug\net8.0\STM-System.pdb
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\bin\Debug\net8.0\STM-System.Models.dll
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\bin\Debug\net8.0\STM-System.Models.pdb
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\STM-System.csproj.AssemblyReference.cache
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\STM-System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\STM-System.AssemblyInfoInputs.cache
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\STM-System.AssemblyInfo.cs
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\STM-System.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\STM-System.sourcelink.json
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\STM-System.csproj.Up2Date
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\STM-System.dll
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\refint\STM-System.dll
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\STM-System.pdb
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\STM-System.genruntimeconfig.cache
+C:\Users\gustavo.almeida\Documents\STM-System Project\STM-System\obj\Debug\net8.0\ref\STM-System.dll

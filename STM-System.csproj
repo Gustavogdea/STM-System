@@ -11,4 +11,8 @@
     <Folder Include="Controller\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\STM-System.Models\STM-System.Models.csproj" />
+  </ItemGroup>
+
 </Project>

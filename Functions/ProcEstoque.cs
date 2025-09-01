@@ -14,7 +14,7 @@ class ProcEstoque
     public void AdicionarCadastro(string nomeProduto, string marcaProduto, int quantidade, decimal valorUnit, Fornecedor fornecedor, List<Produto> _listaProduto)
     {
         int ultimoCodigo = _listaProduto.Any() ? _listaProduto.OrderByDescending(lc => lc.Id).First().Id + 1 : 1;
-        _listaProduto.Add(new Produto(nomeProduto, marcaProduto, fornecedor) { Id = ultimoCodigo, Quantidade = quantidade, ValorUnitario = valorUnit });
+        _listaProduto.Add(new Produto(nomeProduto, marcaProduto) { Id = ultimoCodigo, Quantidade = quantidade, ValorUnitario = valorUnit});
         Console.Clear();
         Console.WriteLine($"Produto {nomeProduto} do Fornecedor {fornecedor.Nome} foi cadastrado com sucesso! ");
     }

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicandoConhecimentosCursosAlura", "AplicandoConhecimentosCursosAlura.csproj", "{54D301F1-55D8-4EBB-8321-A73320820560}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STM-System", "STM-System.csproj", "{54D301F1-55D8-4EBB-8321-A73320820560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STM-System.Models", "..\STM-System.Models\STM-System.Models.csproj", "{FE3E5211-D407-47CD-B43A-DF29E2ED35F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{54D301F1-55D8-4EBB-8321-A73320820560}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54D301F1-55D8-4EBB-8321-A73320820560}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54D301F1-55D8-4EBB-8321-A73320820560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3E5211-D407-47CD-B43A-DF29E2ED35F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3E5211-D407-47CD-B43A-DF29E2ED35F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3E5211-D407-47CD-B43A-DF29E2ED35F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3E5211-D407-47CD-B43A-DF29E2ED35F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
